@@ -1,0 +1,19 @@
+# Core
+openai>=1.40
+chromadb>=0.5
+numpy
+pillow
+requests
+
+# LangChain / LangGraph
+langchain-core>=0.3
+langchain-community>=0.3
+langgraph>=0.2
+
+# Document parsing
+pymupdf>=1.24
+pymupdf4llm>=0.0.17
+docx2txt
+
+# UI
+streamlit>=1.38
