@@ -183,6 +183,7 @@ MAX_FIGURES_PER_PAGE = 100
 FIGURE_CROP_DPI      = 200    # resolution of saved figure crops
 VISION_MAX_TOKENS    = 2000
 SAVE_FIGURE_IMAGES   = True   # crop each captioned figure/table to a PNG
+PDF_PAGE_BATCH_SIZE  = 10     # lazy loading: pages converted + held in memory at a time
 VISION_ON_PAGES_WITHOUT_CAPTION = True   # also read images that have no caption
 
 # ── Chat memory ─────────────────────────────────────────────
